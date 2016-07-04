@@ -1,5 +1,15 @@
 import lpthw_40_mystuff as mystuff
 
+class MyStuff(object):
+    def __init__(self):
+        self.tangerine = "An now a thousand years between"
+
+    def apple(self):
+        print("I AM CLASSY APPLES!")
+
+thing = (MyStuff())
+thing.apple()
+print(thing.tangerine)
 
 # mystuff = {'apple': "I am apples!"}
 # print(mystuff['apple'])
@@ -15,6 +25,7 @@ import lpthw_40_mystuff as mystuff
 #     def apple(self):
 #         print("I AM CLASSY APPLES!")
 
+'''
 class Song(object):
     def __init__(self, lyrics):
         self.lyrics = lyrics
@@ -44,3 +55,5 @@ happy_bday.sing_me_a_song()
 bulls_on_parade.sing_me_a_song()
 
 thinking_out_loud.sing_me_a_song()
+
+'''
